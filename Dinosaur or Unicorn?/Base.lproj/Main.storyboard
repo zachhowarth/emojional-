@@ -34,17 +34,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lh-gk-ZxL">
-                                <rect key="frame" x="125" y="244" width="160" height="160"/>
+                                <rect key="frame" x="96" y="199" width="218" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="dinosaur"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <state key="normal" title="🦖"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mLe-qJ-6QF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLN-VM-gRn">
-                                <rect key="frame" x="125" y="553" width="160" height="160"/>
+                                <rect key="frame" x="96" y="542" width="218" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="unicorn"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <state key="normal" title="🦄"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpb-yJ-LSJ"/>
                                 </connections>
@@ -64,8 +66,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dinosaur" width="160" height="160"/>
         <image name="space" width="2560" height="1440"/>
-        <image name="unicorn" width="160" height="160"/>
     </resources>
 </document>
